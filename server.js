@@ -47,7 +47,7 @@ server.listen(port, () => {
 
 // Function to search videos using YouTube Data API
 async function searchVideos(query) {
-  const apiKey = 'AIzaSyAqhPKuWP4HPUopl0g8qkoZhIQzmBiWZ-c';
+  const apiKey = 'your-youtube-api-key-here';
   const url = `https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&q=${query}&key=${apiKey}`;
 
   try {

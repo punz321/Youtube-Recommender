@@ -1,5 +1,5 @@
 # Overview
-A website to show recommended videos to your search queries
+A website to show recommended videos based on your search query
 
 # help
 i made this project to learn more about how APIs work

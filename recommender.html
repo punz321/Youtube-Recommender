@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HELP!!</title>
+    <style>
+      body {
+        background-color: white;
+        font-family: Arial, sans-serif;
+        text-align: center;
+      }
+
+      .box {
+        border: 2px solid black;
+        padding: 10px;
+        height: 40px;
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        background-color: red;
+      }
+
+      .box h1 {
+        margin: 0;
+      }
+
+      h1 {
+        margin-top: 50px;
+      }
+      form {
+        margin-top: 30px;
+      }
+      input[type="text"] {
+        padding: 8px;
+        font-size: 16px;
+      }
+      input[type="submit"] {
+        padding: 8px 16px;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        font-size: 16px;
+        cursor: pointer;
+      }
+      #results {
+        margin-top: 50px;
+      }
+      #results iframe {
+        width: 560px;
+        height: 315px;
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <h1>Recommender</h1>
+    </div>
+    <form id="search-form">
+      <input
+        type="text"
+        id="search-input"
+        placeholder="Enter your search query"
+      />
+      <input type="submit" value="Search" />
+    </form>
+    <div id="results"></div>
+
+    <script src="script.js"></script>
+    <script src="server.js"></script>
+  </body>
+</html>

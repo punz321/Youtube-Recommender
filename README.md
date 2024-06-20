@@ -1,8 +1,10 @@
 # Overview
+(STILL IN PROGRESS)
 A website to show recommended videos based on your search query using Youtube api
 
 i made this project to learn more about how APIs work
 an error occurs while fetching details from YoutubeAPI
+
 
 # Running the file
 - download and open all three files in a code editor of your choice (VSC best imo 👍)
